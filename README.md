@@ -8,7 +8,7 @@
 
 ## WorkFlow : 
 <ul> <li> created mongoDB models for user and vendor.
-  <li> connecte app to mongoDB database.
+  <li> connected app to mongoDB database.
    <li> Registerd users with username and password ,password is encrypted using md5 . Checked if the user is already registered it will give a  message that user already exists else saved the username and password in user database.</li>
 <li> Registerd vendors with mobile and password ,password is encrypted using md5 . Checked if the vendor is already registered it will give a  message that vendor already exists else saved the username and password in user database.</li>
   <li>Before saving user and vendor into database checked if there credentials are valid or not.</li>
